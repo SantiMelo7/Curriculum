@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100;
+}
+
+li {
+  @apply font-medium;
+  font-size: 1.1rem;
+  line-height: 1rem;
+}
+
+div.lineTec {
+  @apply border-[1px] border-blue-500;
+}
+
+div.lineTitle {
+  @apply border-[1px] border-gray-400 w-[50%];
+}
+
+span {
+  @apply font-extrabold text-blue-900;
+}
