@@ -89,6 +89,6 @@ div.container-tec {
     grid-template-columns: repeat(10, 50px);
   }
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(19, 50px);
+    grid-template-columns: repeat(20, 50px);
   }
 }

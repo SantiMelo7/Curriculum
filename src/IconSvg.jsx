@@ -17,9 +17,34 @@ import VercelImg from "../public/vercel.webp";
 import NetiflyImg from "../public/netifly.webp";
 import StylesComponentsImg from "../public/styles-components.png";
 import ReactRouterDomImg from "../public/react-router-dom.webp";
-import TypescriptImg from "../public/typescript.webp";
+import TypescriptImg from "../public/typescript.svg";
+import AntdDesignimg from "../public/ant-design.svg";
+import FirebaseImg from "../public/firebase.png";
+import NextAuthImg from "../public/nextAuth.webp";
 
-export const CssH1 = "font-extrabold text-white ";
+export const Firebase = ({ width }) => {
+  return (
+    <>
+      <Image src={FirebaseImg} width={width} alt="Firebase" />
+    </>
+  );
+};
+
+export const AntdDesign = ({ width }) => {
+  return (
+    <>
+      <Image src={AntdDesignimg} width={width} alt="Antd Design" />
+    </>
+  );
+};
+
+export const NextAuth = ({ width }) => {
+  return (
+    <>
+      <Image src={NextAuthImg} width={width} alt="NextAuth" />
+    </>
+  );
+};
 
 export const GitHub = () => {
   return (
@@ -198,12 +223,7 @@ export const ReactJs = ({ width }) => {
 export const NextJs = ({ width }) => {
   return (
     <>
-      <Image
-        className="dark:filter-img-next filter-img-next-light"
-        src={NextImg}
-        width={width}
-        alt="Next Js"
-      />
+      <Image src={NextImg} width={width} alt="Next Js" />
     </>
   );
 };
